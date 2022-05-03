@@ -3,6 +3,7 @@
 :root {
     --blanco: #e0e0e0;
     --blanco-2: rgba(255,255,255,.2);
+    --purple :  rgba(48, 25, 52, 1);
     --negro: #181818;
     --negro-5: rgba(0, 0, 0, 0.5);
     --negro-7: rgba(0, 0, 0, 0.75);
@@ -81,7 +82,7 @@
     font-size: 100%;
     min-height: 100vh;
     background-color: var(--blanco);
-    color: white;
+    color:var(--purple);
     font-smooth: always;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -128,7 +129,7 @@
     right:0%;
   }
   .circles .circle2 .path{
-    fill: #fff3B0
+    fill: #fff3B0;  
   }
   .circles .circle3{
     bottom: 0;
@@ -229,7 +230,7 @@ border-color:  white;
   font-weight: 800;
   font-size: 3em;
   line-height: 1em;
-  color: rgba(255,255,255,.7);
+  color: var(--purple);
   mix-blend-mode: multiply;
 }
 .section .h3{
@@ -332,8 +333,9 @@ align-items: center;
   .about .image{
     width: 5em;
     height: 5em;
-    filter: brightness(0) invert(1);
+    filter: invert(5%) sepia(78%) saturate(6858%) hue-rotate(276deg) brightness(97%) contrast(150%);
     object-fit: contain;
+
 
 }
 

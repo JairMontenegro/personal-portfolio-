@@ -172,6 +172,15 @@
     margin: 0 1em;
 }
 
+.flags{
+  display:flex;
+  width:75px;
+  gap:10px;
+  opacity:.5;
+  margin-left:10px;
+}
+
+
 /* ---------------contenido----------- */
 
 .main{

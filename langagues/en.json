@@ -1,0 +1,19 @@
+{
+
+"profile":{
+    "rol":"Frontend Developer",
+    "linkedin":"MY LINKEDIN",
+    "github":"MY GITHUB"
+},
+"works":{
+    "title":"Works",
+    "projects":"My projects using, HTML, CSS, Javascript and React",
+    "some":"(some of them will be updated)"
+},
+
+"about":{
+    "about":"About",
+    "description":"Self-taught Front-end Development with knowledge in HTML, CSS, Javascript, React and Git. My completed projects consist of (a) To Do App list; (b) Application time; (c) Book Contact; (d) Landing page; (e) Slide puzzle game; (f) Calculator JS; (g) Click counter (React) and (h)Testimonials FCC (React) These are on Github and Freecodecamp.com,",
+    "medios":"YouTube, Stackoverflow, and the MDN documentation. They have been my main source of learning.",
+    "near":"In the near future I would like to perfect my knowledge in React and Js, also in a medium-term future, I would like to learn other languages such as nodeJS or python."
+}}

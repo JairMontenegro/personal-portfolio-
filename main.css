@@ -172,7 +172,9 @@
     margin: 0 1em;
 }
 
+/* ---------------languages----------- */
 .flags{
+  display:block;
   display:flex;
   width:75px;
   gap:10px;
@@ -180,8 +182,12 @@
   margin-left:10px;
 }
 
+.flags-item{
+  
+  cursor:pointer;
+}
 
-/* ---------------contenido----------- */
+/* ---------------content----------- */
 
 .main{
     margin: 0 0 1em;

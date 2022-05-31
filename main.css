@@ -178,7 +178,7 @@
   display:flex;
   width:75px;
   gap:10px;
-  opacity:.5;
+  opacity:.8;
   margin-left:10px;
 }
 
@@ -348,7 +348,6 @@ align-items: center;
   .about .image{
     width: 5em;
     height: 5em;
-    filter: invert(5%) sepia(78%) saturate(6858%) hue-rotate(276deg) brightness(97%) contrast(150%);
     object-fit: contain;
 
 

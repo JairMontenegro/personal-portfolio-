@@ -50,9 +50,12 @@
         <nav class="nav" id="navbar">
 
             <ul class="ul">
-                <li class="li"><a href="#inicio" class="a" title="Home">Home</a></li>
-                <li class="li"><a href="#projects" class="a" title="Works">Works</a></li>
-                <li class="li"><a href="#about" class="a" title="About">About</a></li>
+                <li class="li"><a href="#inicio" class="a" title="Home" data-section="nav" data-value="home">Home</a>
+                </li>
+                <li class="li"><a href="#projects" class="a" title="Works" data-section="nav"
+                        data-value="works">Works</a></li>
+                <li class="li"><a href="#about" class="a" title="About" data-section="nav" data-value="about">About</a>
+                </li>
                 <div id="flagsc" class="flags">
                     <div class="flags-item" data-language="en">
                         <img src="/sources/us.svg" alt="flag us">
@@ -71,13 +74,14 @@
 
             <section class="section info">
                 <h2 class="h2">Jair Montenegro</h2>
-                <h3 class="h3">Frontend Developer</h3>
+                <h3 class="h3" data-section="profile" data-value="rol">Frontend Developer</h3>
                 <ul class="ul">
                     <li class="li"><a href="https://www.linkedin.com/in/jair-montenegro-2a9499218/" target="_blank"
-                            rel="noopener noreferrer" class="a" title="linkedin"> My
+                            rel="noopener noreferrer" class="a" title="linkedin" data-section="profile"
+                            data-value="linkedin"> My
                             Linkedin</a></li>
                     <li class="li"><a href="https://github.com/JairMontenegro" target="_blank" rel="noopener noreferrer"
-                            class="a" title="Github">My Github</a>
+                            class="a" title="Github" data-section="profile" data-value="github">My Github</a>
                     </li>
                 </ul>
             </section>
@@ -85,10 +89,10 @@
         </div>
 
         <section class="section works porject-title" id="projects">
-            <h2 class="h2">Works</h2>
-            <p class="p">My projects using HTML, CSS,
+            <h2 class="h2" data-section="works" data-value="title">Works</h2>
+            <p class="p" data-section="works" data-value="projects">My projects using HTML, CSS,
                 Javascript and React. </p>
-            <p>(some of them will be updated)</p>
+            <p data-section="works" data-value="some">(some of them will be updated)</p>
 
             <div class="grid">
                 <article class="article">
@@ -194,8 +198,8 @@
         </section>
 
         <section class="section about" id="about">
-            <h2 class="h2">About</h2>
-            <p class="p">
+            <h2 class="h2" data-section="about" data-value="about">About</h2>
+            <p class="p" data-section="about" data-value="description">
                 I am a self-taught front-end developer with knowledge in HTML, CSS, Javascript, React and Git. My
                 complete projects as you can see above consist of (a) To Do List; (b) App weather; (c) Book Contact; (d)
                 Landing page; (e) Slide puzzle game; (f) Calculadora JS; (g) Calculadora refact (React);
@@ -203,9 +207,10 @@
                 finalized. These are all on
                 Github.
             </p>
-            <p class="p">YouTube, Stackoverflow, and the MDN documentation. They have been my main source of learning.
+            <p class="p" data-section="about" data-value="medios">YouTube, Stackoverflow, and the MDN documentation.
+                They have been my main source of learning.
             </p>
-            <p class="p">
+            <p class="p" data-section="about" data-value="near">
                 In the near future I would like to perfect my knowledge in React and Js, also in a medium-term
                 future, I would like to learn other languages such as python and frameworks such as nodeJS .
             </p>
@@ -241,7 +246,8 @@
         </section>
     </main>
     <footer class="footer">
-        <span class="span">Developed by Jair Montenegro</span>
+        <span class="span" data-section="footer" data-value="footer">Developed by Jair Montenegro</span>
+
     </footer>
     <script src="index.js"></script>
 </body>

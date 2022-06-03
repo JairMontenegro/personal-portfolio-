@@ -1,5 +1,11 @@
 {
 
+"nav":{
+"home":"Home",
+"works":"Works",
+"about":"About"
+    },
+
 "profile":{
     "rol":"Frontend Developer",
     "linkedin":"MY LINKEDIN",

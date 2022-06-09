@@ -19,9 +19,9 @@
 
 "about":{
     "about":"Sobre mi",
-    "description":"Soy un desarrollador front-end autodidacta con conocimientos en HTML, CSS, Javascript, React y Git. Mis proyectos completos como pudo ver arriba, consisten en (a) To Do List; (b) App weather; (c) Agenda de contactos; (d) Landing page; (e) Slide puzzle game; (f) Calculadora JS; (g) Calculadora refact (React); (h) Contador de clics (React) y (i) Testimonios FCC (React), tambien tengo otros en proceso de finalizacion. Todos estos están en Github",
-    "medios":"YouTube, Stackoverflow, y la MDN documentation. Han sido mis fuentes principales de aprendizaje ",
-    "near":"En el futuro cercano me gustaria perfecionar mis conocimientos en React y JS, tambien en un fuuro medio, me gustaria aprender otros lenguajes de programacion como python y frameworks como node js."
+    "description":"Soy un desarrollador front-end autodidacta con conocimientos en HTML, CSS, Javascript, React y Git. Mis proyectos completos como pudo ver arriba, consisten en (a) To Do List; (b) App del clima; (c) Agenda de contactos; (d) Landing page; (e) Slide puzzle game; (f) Calculadora JS; (g) Calculadora refactorizada (React); (h) Contador de clics (React) y (i) Testimonios FCC (React), tambien tengo otros en proceso de finalizacion. Todos estos están en Github",
+    "medios":"FreeCodeCamp, YouTube, Stackoverflow, y la MDN documentation. Han sido mis fuentes principales de aprendizaje ",
+    "near":"En un futuro próximo me gustaría perfeccionar mis conocimientos en React y Js, también en un futuro a medio plazo, me gustaría aprender mongo db, nodeJS y lenguajes como python."
 },
 
 "footer":{

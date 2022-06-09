@@ -12,7 +12,6 @@ const changeLanguage = async language => {
         textsToChange.innerHTML = text[section][value];
     }
 
-
 };
 
 

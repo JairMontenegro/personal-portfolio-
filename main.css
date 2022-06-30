@@ -160,6 +160,7 @@
 }
 .header .li{
     margin: 0 1em;
+
 }
 
 /* ---------------languages----------- */
@@ -373,12 +374,44 @@ align-items: center;
 
 @media only screen and (max-width: 425px) {
   body {
-    background: rgb(227,199,222);
-    background: radial-gradient(circle, rgba(227,199,222,1) 0%, rgba(158,42,43,1) 49%, rgba(84,11,14,1) 100%); 
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(248,200,202,1) 60%);
   }
+
+   /* ---------------header a ----------- */
+
+
+  header h1 a {
+  margin: 0 0 1rem 4rem;
+  }
+
+
+
+
+  /* ---------------languages----------- */
+
+  .flags{
+  display:flex;
+  width:75px;
+  gap:10px;
+  opacity:.8;
+  margin:0 auto;
+  margin-top: .8rem;
+}
+
+
   .section .info{ 
     padding : 0;
     font-size: 1em;
   
   }
+
+
+  /* --------------main------------ */
+
+section{
+  margin-top:100px;
 }
+}
+
+

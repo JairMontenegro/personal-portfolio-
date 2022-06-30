@@ -11,16 +11,6 @@
     --principal-tipog:'Inter', sans-serif;
   }
   
-  @media screen and (prefers-color-scheme:light){
-    :root {
-      --blanco: #181818;
-      --blanco-2: rgba(0,0,0,.2);
-      --negro: #e0e0e0;
-      --negro-5: rgba(255, 255, 255, 0.5);
-      --negro-7: rgba(255, 255, 255, 0.75);
-    }
-  }
-  
   * {
     margin: 0;
     padding: 0;
@@ -200,7 +190,6 @@
     min-height: 80vh;
     margin: 1em 0;
     padding: 2em;
-
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -210,7 +199,6 @@
 .section .info{
   font-size: 1.3em;
   animation:  show1 2s ease 1 both;
-
 }
 
 
@@ -378,3 +366,19 @@ align-items: center;
   }
 }
 
+
+
+/* ------------query------------ */
+
+
+@media only screen and (max-width: 425px) {
+  body {
+    background: rgb(227,199,222);
+    background: radial-gradient(circle, rgba(227,199,222,1) 0%, rgba(158,42,43,1) 49%, rgba(84,11,14,1) 100%); 
+  }
+  .section .info{ 
+    padding : 0;
+    font-size: 1em;
+  
+  }
+}
